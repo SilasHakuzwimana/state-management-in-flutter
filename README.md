@@ -118,12 +118,13 @@ git clone https://github.com/SilasHakuzwimana/state-management-in-flutter.git
 4. GetX Package
 
 ## Assignment Details
-
+```bash
 Course details: Year 3 Computer Engineering - Mobile Application Systems and Design
 Assignment: CSE Assignment 1 - State Management in Flutter
 Student name & Reg. Number: Silas HAKUZWIMANA - 223001019
 Submission Date: 27th February 2026
 Institution: UR-CST
+```
 
 ## License
 
