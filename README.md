@@ -1,13 +1,13 @@
-# State Management in Flutter
-A comprehensive Flutter state management assignment comparing Provider, Riverpod, Bloc, and GetX. Includes handwritten explanations, applicability table, and detailed Provider implementation guide with code snippets.
-
-
-# Flutter State Management Assignment - Year 3 CSE
+# Flutter State Management Assignment 1 - Year 3 CSE
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![Provider](https://img.shields.io/badge/Provider-6A1B9A?style=for-the-badge&logo=flutter&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+A comprehensive Flutter state management assignment comparing Provider, Riverpod, Bloc, and GetX. Includes handwritten explanations, applicability table, and detailed Provider implementation guide with code snippets.
+
+
 
 ## Assignment Overview
 
@@ -17,7 +17,7 @@ This repository contains my submission for the **Year 3 CSE Assignment** on Flut
 
 | File | Description |
 |------|-------------|
-| `Year_3_CSE_Assignment_1.pdf` | Complete assignment submission (handwritten + typed sections combined) |
+| `Assignment #1 - 223001019.pdf` | Complete assignment submission (handwritten + typed sections combined) |
 | `README.md` | This documentation file |
 
 ## Assignment Questions Covered
@@ -46,14 +46,15 @@ Detailed step-by-step explanation of Provider with code snippets:
 - Adding dependency to `pubspec.yaml`
 - Creating a state class with `ChangeNotifier`
 - Providing state using `ChangeNotifierProvider`
-- Accessing state via `Provider.of` and `Consumer`
+- Accessing state via `context.watch<T>()`, `context.read<T>()`, `Provider.of<T>(context)`,  and `Consumer<T>`
 - Updating state with `notifyListeners()`
 - UI rebuild mechanism explained
 
-## 🚀 Key Code Snippets
+## Key code snippets
 
 ### State Class (Counter Model)
-```dart
+
+```bash
 class Counter with ChangeNotifier {
   int _count = 0;
   int get count => _count;
@@ -85,47 +86,41 @@ Consumer<Counter>(
     return Text('${counter.count}');
   },
 )
-🛠️ How to View the Assignment
+```
+## How to View the Assignment
+
 Clone the repository
 
-bash
-git clone https://github.com/yourusername/your-repo-name.git
-Open the PDF
+```bash
+git clone https://github.com/SilasHakuzwimana/state-management-in-flutter.git
+```
+## Open the PDF
 
-Navigate to Year_3_CSE_Assignment_1.pdf
+1. Navigate to Assignment #1 - 223001019.pdf
+2. Open with any PDF viewer
 
-Open with any PDF viewer
+## Assignment Requirements Met
 
-📝 Assignment Requirements Met
-✅ Handwritten explanations (scanned/included in PDF)
+1. Handwritten explanations (scanned/included in PDF)
+2. Handwritten applicability table
+3. Typed Provider implementation guide
+4. Code snippets included
+5. Single PDF file format
+6. GitHub repository submission
 
-✅ Handwritten applicability table
+## Additional Resources
 
-✅ Typed Provider implementation guide
+1. Flutter Provider Documentation
+2. Riverpod Official Docs
+3. Bloc Library
+4. GetX Package
 
-✅ Code snippets included
+## Student Information
 
-✅ Single PDF file format
+Course details: Year 3 Computer Engineering - Mobile Application Systems and Design
+Assignment: CSE Assignment 1 - State Management in Flutter
+Submission Date: 27th February 2026
+Institution: UR-CST
 
-✅ GitHub repository submission
-
-📚 Additional Resources
-Flutter Provider Documentation
-
-Riverpod Official Docs
-
-Bloc Library
-
-GetX Package
-
-👨‍🎓 Student Information
-Course: Year 3 Computer Science Engineering
-
-Assignment: CSE Assignment 1 - State Management
-
-Submission Date: [Insert Date]
-
-Institution: [Your Institution Name]
-
-📄 License
+License
 This project is submitted for academic purposes. All code snippets are for educational demonstration.
