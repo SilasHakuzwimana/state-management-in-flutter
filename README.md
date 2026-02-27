@@ -3,6 +3,9 @@
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![Provider](https://img.shields.io/badge/Provider-6A1B9A?style=for-the-badge&logo=flutter&logoColor=white)
+![Riverpod](https://img.shields.io/badge/Riverpod-DB3552?style=for-the-badge&logo=flutter&logoColor=white)
+![Bloc](https://img.shields.io/badge/Bloc-FF9800?style=for-the-badge&logo=flutter&logoColor=white)
+![GetX](https://img.shields.io/badge/GetX-8E44AD?style=for-the-badge&logo=flutter&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 A comprehensive Flutter state management assignment comparing Provider, Riverpod, Bloc, and GetX. Includes handwritten explanations, applicability table, and detailed Provider implementation guide with code snippets.
@@ -119,6 +122,7 @@ git clone https://github.com/SilasHakuzwimana/state-management-in-flutter.git
 
 Course details: Year 3 Computer Engineering - Mobile Application Systems and Design
 Assignment: CSE Assignment 1 - State Management in Flutter
+Student name & Reg. Number: Silas HAKUZWIMANA - 223001019
 Submission Date: 27th February 2026
 Institution: UR-CST
 
