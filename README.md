@@ -117,7 +117,7 @@ git clone https://github.com/SilasHakuzwimana/state-management-in-flutter.git
 3. Bloc Library
 4. GetX Package
 
-## Student Information
+## Assignment Details
 
 Course details: Year 3 Computer Engineering - Mobile Application Systems and Design
 Assignment: CSE Assignment 1 - State Management in Flutter
