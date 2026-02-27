@@ -6,7 +6,6 @@
 ![Riverpod](https://img.shields.io/badge/Riverpod-DB3552?style=for-the-badge&logo=flutter&logoColor=white)
 ![Bloc](https://img.shields.io/badge/Bloc-FF9800?style=for-the-badge&logo=flutter&logoColor=white)
 ![GetX](https://img.shields.io/badge/GetX-8E44AD?style=for-the-badge&logo=flutter&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 A comprehensive Flutter state management assignment comparing Provider, Riverpod, Bloc, and GetX. Includes handwritten explanations, applicability table, and detailed Provider implementation guide with code snippets.
 
@@ -126,5 +125,6 @@ Student name & Reg. Number: Silas HAKUZWIMANA - 223001019
 Submission Date: 27th February 2026
 Institution: UR-CST
 
-License
+## License
+
 This project is submitted for academic purposes. All code snippets are for educational demonstration.
